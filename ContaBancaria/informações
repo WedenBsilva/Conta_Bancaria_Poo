@@ -1,0 +1,34 @@
+Atributos são as caracteristicas do que você está implementando.
+
+* Atributos de uma conta bancária *
+----------------privados-------------------
+-numero : int                             |
+-agencia : int                            |
+-tipo : int                               |
+-titular : String                         |
+-saldo : float                            |
+---------------publicos--------------------
++int getNumero()                          |
++int getAgencia()                         |
++int getTipo()                            |
++String titular()                         |
++float getSaldo()                         |
++void setNumero(int numero)               |
++void setAgencia(int agencia)             |
++void setTipo(int tipo)                   |
++void setTitular(String titular)          |
++void setSaldo(float saldo)               |
++bollean saque (float valor)              |
++void visualiza()                         |
+-------------------------------------------
+
+- Metodos da conta bancaria - geralmente são verbos por serem ações
+sacar
+depositar
+transferir
+abrir
+fechar
+
+sobrecarregar metodo = polimorfismo
+sobrescrita = clases diferentes, mesma assinatuda, porem processamentos diferentes
+herança = uma classe herda as coisas da classe. Ex extends Conta. Herda tudo que tiver na Classe conta (que é generica)
